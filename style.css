@@ -76,6 +76,7 @@ strong { font-weight: 900; }
 @media (min-width: 500px) {
     body {
         font-size: 1.125rem;
+        display: flex;
     }
     
     h1 {
@@ -86,12 +87,10 @@ strong { font-weight: 900; }
     h1 + p {
         font-size: 1.75rem;
     }
-}
-
-@media (max-width: 500px) {
-    
-    .intro {
-        width: 100%;
+  
+    .intro,
+    .main-content {
+        width: 50%;
     }
 }
    
